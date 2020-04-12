@@ -6,11 +6,13 @@ token only
 
 # list of node module
 
-Here i used express , dotenv , jsonwebtoken and mysql
+Here i used express , dotenv , jsonwebtoken,bcrypt and mysql
+
+Here for password encryption we used bcrypt library hashSync methods and for decrypt use compareSync methods
 
 # how to install above module
 
-npm install express mysql jsonwebtoken  dotenv
+npm install express mysql jsonwebtoken  dotenv bcrypt
 
 # how to run server
 
